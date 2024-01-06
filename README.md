@@ -9,3 +9,6 @@ termos: Empresas que publicam vagas e candidatos que se cadastram em vagas, vaga
 associadas ao candidato e candidatos que possuem qualificações para se candidatar as vagas. É partindo deste cenários
 inicial que o desenvolvimento deste sistema será feito. Ao longo do projeto, mudanças e refinamentos/aperfeiçoamentos 
 serão realizados a fim de tornar o projeto mais robusto e mais próximo de um projeto real.
+
+** Mais alguns insights futuros: Adicionar tecnologia de cache utilizando o banco de dados Redis para melhora de
+performance. Criar e projetar toda a parte visual do sistema, possivelmente sendo desenvolvida em react ou angular.
