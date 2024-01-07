@@ -5,11 +5,28 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class TesteService {
+public class EmpresasService implements IEmpresasService{
     @Autowired
     TesteRepository testeRepository;
 
-    void teste (){
+    @Override
+    public void getEmpresa(){
          testeRepository.findAll();
     }
+
+    @Override
+    public void patchEmpresa() {
+
+    }
+
+    @Override
+    public void deleteEmpresa() {
+
+    }
+
+    @Override
+    public void postEmpresa() {
+
+    }
+
 }
