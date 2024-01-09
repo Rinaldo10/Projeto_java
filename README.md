@@ -12,3 +12,5 @@ serão realizados a fim de tornar o projeto mais robusto e mais próximo de um p
 
 ** Mais alguns insights futuros: Adicionar tecnologia de cache utilizando o banco de dados Redis para melhora de
 performance. Criar e projetar toda a parte visual do sistema, possivelmente sendo desenvolvida em react ou angular.
+
+Adicionar um arquivo SQL ao projeto com os scripts de banco de dados para que seja possivel replicar em outras maquinas.
