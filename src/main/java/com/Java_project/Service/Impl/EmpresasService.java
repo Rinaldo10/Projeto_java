@@ -1,17 +1,17 @@
 package com.Java_project.Service.Impl;
 
-import com.Java_project.Repository.TesteRepository;
+import com.Java_project.Repository.EmpresaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
 public class EmpresasService implements IEmpresasService{
     @Autowired
-    TesteRepository testeRepository;
+    EmpresaRepository empresaRepository;
 
     @Override
     public void getEmpresa(){
-         testeRepository.findAll();
+         empresaRepository.findAll();
     }
 
     @Override

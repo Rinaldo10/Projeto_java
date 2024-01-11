@@ -1,15 +1,15 @@
 package com.Java_project.Service.Impl;
 
-import com.Java_project.Repository.TesteRepository;
+import com.Java_project.Repository.EmpresaRepository;
 import org.springframework.stereotype.Service;
 
 @Service
 public class VagasService implements IVagasService{
 
-    TesteRepository testeRepository;
+    EmpresaRepository empresaRepository;
     @Override
     public void getEmpresa(){
-        testeRepository.findAll();
+        empresaRepository.findAll();
     }
 
     @Override
