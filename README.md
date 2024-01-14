@@ -19,3 +19,5 @@ serão realizados a fim de tornar o projeto mais robusto e mais próximo de um p
     * Adicionar um arquivo SQL ao projeto com os scripts de banco de dados para que seja possivel replicar em outras maquinas.
 
     * Adicionar uma camada de autenticação e autorização para os serviços além de um conjunto de "roles" que definirão as permissões do usuario.
+
+    * Aplicar durante as implementações deste projeto os principios do SOLID.
