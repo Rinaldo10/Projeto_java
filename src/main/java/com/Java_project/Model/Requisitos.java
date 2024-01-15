@@ -1,8 +1,11 @@
 package com.Java_project.Model;
 
+import jakarta.persistence.Entity;
+
+@Entity
 public class Requisitos {
 
-    String nome;
+    private String nome;
 
-    Integer tempoExperiencia;
+    private Integer tempoExperiencia;
 }

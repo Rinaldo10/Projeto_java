@@ -1,17 +1,20 @@
 package com.Java_project.Model;
 
+import jakarta.persistence.Entity;
+
 import java.util.Date;
 import java.util.List;
 
+@Entity
 public class Vagas {
 
-    String nome;
+    private String nome;
 
-    String descricao;
+    private String descricao;
 
-    List<Requisitos> requisitosList;
+    private List<Requisitos> requisitosList;
 
-    Date prazoVaga;
+    private Date prazoVaga;
 
 
 }
