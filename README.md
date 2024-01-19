@@ -21,3 +21,5 @@ serão realizados a fim de tornar o projeto mais robusto e mais próximo de um p
     * Adicionar uma camada de autenticação e autorização para os serviços além de um conjunto de "roles" que definirão as permissões do usuario.
 
     * Aplicar durante as implementações deste projeto os principios do SOLID.
+
+* Desenvolver um sistema de filtros de localidade visando buscar vagas de outros países.
