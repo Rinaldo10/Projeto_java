@@ -22,6 +22,8 @@ serão realizados a fim de tornar o projeto mais robusto e mais próximo de um p
 
     * Aplicar durante as implementações deste projeto os principios do SOLID.
 
-* Desenvolver um sistema de filtros de localidade visando buscar vagas de outros países.
+    * Desenvolver um sistema de filtros de localidade visando buscar vagas de outros países.
 
-* Adicionar ferramentas de observabilidade ao fazer o deploy da aplicação.
+    * Adicionar ferramentas de observabilidade ao fazer o deploy da aplicação.
+
+    * Buscar opções de ferramentas gratuitas para fazer o deploy.
