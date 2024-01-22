@@ -1,13 +1,17 @@
 package com.Java_project.Model;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
 import java.util.List;
 
 @Entity
 public class Empresa {
 
-    List<Vagas> vagasAbertas;
+    @Id
+    private Long id;
 
-    String nomeEmpresa;
+    private List<Vagas> vagasAbertas;
+
+    private String nomeEmpresa;
 }
