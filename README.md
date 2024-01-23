@@ -5,8 +5,8 @@ desenvolvimento web (back-end). Serão testados conceitos como: classe, objeto,
 herança, polimorfismo, API Restful, padrões de arquitetura, testes unitarios, JPA, bancos relacionais, etc.
 
 O cenario construido para abranger as regras de negócio que guiarão a construção deste serviço será dada pelo seguintes 
-termos: Empresas que publicam vagas e candidatos que se cadastram em vagas, vagas que possuem requisitos para que sejam 
-associadas ao candidato e candidatos que possuem qualificações para se candidatar as vagas. É partindo deste cenários
+termos: Empresas que publicam vagas e profissionais que se cadastram em vagas, vagas que possuem requisitos para que sejam 
+associadas ao profissional e profissionais que possuem qualificações para se candidatar as vagas. É partindo deste cenários
 inicial que o desenvolvimento deste sistema será feito. Ao longo do projeto, mudanças e refinamentos/aperfeiçoamentos 
 serão realizados a fim de tornar o projeto mais robusto e mais próximo de um projeto real.
 
@@ -24,6 +24,6 @@ serão realizados a fim de tornar o projeto mais robusto e mais próximo de um p
 
     * Desenvolver um sistema de filtros de localidade visando buscar vagas de outros países.
 
-    * Adicionar ferramentas de observabilidade ao fazer o deploy da aplicação.
+    * Adicionar ferramentas de observabilidade ao fazer o deploy da aplicação (Grafana e Prometheus).
 
     * Buscar opções de ferramentas gratuitas para fazer o deploy.
