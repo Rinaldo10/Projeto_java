@@ -27,3 +27,5 @@ serão realizados a fim de tornar o projeto mais robusto e mais próximo de um p
     * Adicionar ferramentas de observabilidade ao fazer o deploy da aplicação (Grafana e Prometheus).
 
     * Buscar opções de ferramentas gratuitas para fazer o deploy.
+
+    * Adicionar ao projeto fluxo para consumo de mensageria (Kafka).
