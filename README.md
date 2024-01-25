@@ -29,3 +29,5 @@ serão realizados a fim de tornar o projeto mais robusto e mais próximo de um p
     * Buscar opções de ferramentas gratuitas para fazer o deploy.
 
     * Adicionar ao projeto fluxo para consumo de mensageria (Kafka).
+
+    * Tentar trazer uma implementação de Azure function para este ou um futuro projeto.
