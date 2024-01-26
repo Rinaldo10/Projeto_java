@@ -11,5 +11,5 @@ public class Profissional {
     @Id
     private Long id;
     private String nome;
-    private List<Qualificacoes> qualificacoesList;
+    private List<Qualificacao> qualificacaoList;
 }

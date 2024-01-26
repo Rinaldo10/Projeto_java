@@ -4,7 +4,7 @@ import com.Java_project.Repository.EmpresaRepository;
 import org.springframework.stereotype.Service;
 
 @Service
-public class VagasService implements IVagasService{
+public class VagaService implements IVagaService {
 
     EmpresaRepository empresaRepository;
     @Override

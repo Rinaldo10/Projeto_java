@@ -11,7 +11,7 @@ public class Empresa {
     @Id
     private Long id;
 
-    private List<Vagas> vagasAbertas;
+    private List<Vaga> vagaAbertas;
 
     private String nomeEmpresa;
 }

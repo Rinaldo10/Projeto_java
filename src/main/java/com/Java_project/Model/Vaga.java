@@ -7,7 +7,7 @@ import java.util.Date;
 import java.util.List;
 
 @Entity
-public class Vagas {
+public class Vaga {
 
     @Id
     private Long id;
@@ -15,7 +15,7 @@ public class Vagas {
 
     private String descricao;
 
-    private List<Requisitos> requisitosList;
+    private List<Requisito> requisitoList;
 
     private Date prazoVaga;
 
