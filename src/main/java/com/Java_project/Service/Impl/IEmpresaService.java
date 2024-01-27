@@ -1,8 +1,12 @@
 package com.Java_project.Service.Impl;
 
+import com.Java_project.Model.Empresa;
+
+import java.util.List;
+
 public interface IEmpresaService {
 
-    void getEmpresa();
+    List<Empresa> getEmpresa();
     void patchEmpresa();
     void deleteEmpresa();
     void postEmpresa();
