@@ -1,8 +1,11 @@
 package com.Java_project.Service.Impl;
 
+import com.Java_project.Model.Empresa;
 import com.Java_project.Repository.EmpresaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 public class EmpresaService implements IEmpresaService {
@@ -10,8 +13,8 @@ public class EmpresaService implements IEmpresaService {
     EmpresaRepository empresaRepository;
 
     @Override
-    public void getEmpresa(){
-         empresaRepository.findAll();
+    public List<Empresa> getEmpresa(){
+        return empresaRepository.findAll();
     }
 
     @Override
@@ -21,6 +24,7 @@ public class EmpresaService implements IEmpresaService {
 
     @Override
     public void deleteEmpresa() {
+
 
     }
 

@@ -1,12 +1,11 @@
 package com.Java_project.Repository;
 
+import com.Java_project.Model.Empresa;
 import com.Java_project.Model.Requisito;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface EmpresaRepository extends JpaRepository<Requisito, Long> {
-
-
+public interface EmpresaRepository extends JpaRepository<Empresa, Long> {
 
 }
