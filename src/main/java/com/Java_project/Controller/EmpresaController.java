@@ -33,10 +33,9 @@ public class EmpresaController {
     }
 
     @GetMapping("/listar/{id}")
-    List<Empresa> getEmpresasById(
+    Empresa getEmpresasById(
         @Parameter(name = "id", required = true) @PathVariable(value = "id") Long id){
-        List<Empresa> empresas = empresaService.getEmpresa();
-        return empresas;
+        return empresaService.getEmpresaById(id);
     }
 
     void postEmpresas(){}
