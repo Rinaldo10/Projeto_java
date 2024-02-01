@@ -5,10 +5,7 @@ import com.Java_project.Service.Impl.IEmpresaService;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -40,7 +37,14 @@ public class EmpresaController {
 
     void postEmpresas(){}
 
-    void patchEmpresas(){}
+    @PatchMapping("/{id}")
+    Empresa patchEmpresas(
+            @Parameter(name = "editEmpresaRequest", description = "Request json para editar empresa") @RequestBody EditEmpresaRequest request;
+
+    }
+    ){
+        return empresaService.patchEmpresa();
+    }
 
     void deleteEmpresas(){}
 }

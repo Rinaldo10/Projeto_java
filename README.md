@@ -32,4 +32,4 @@ serão realizados a fim de tornar o projeto mais robusto e mais próximo de um p
 
     * Tentar trazer uma implementação de Azure function para este ou um futuro projeto.
 
-   * Adicionar testes unitarios para garantir a qualidade do código, utilizar JUnit e o Mockito.
+    * Adicionar testes unitarios para garantir a qualidade do código, utilizar JUnit e o Mockito.
