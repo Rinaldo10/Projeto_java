@@ -1,5 +1,6 @@
 package com.Java_project.Controller;
 
+import com.Java_project.DTO.EditEmpresaRequest;
 import com.Java_project.Model.Empresa;
 import com.Java_project.Service.Impl.IEmpresaService;
 import io.swagger.v3.oas.annotations.Parameter;
@@ -39,11 +40,10 @@ public class EmpresaController {
 
     @PatchMapping("/{id}")
     Empresa patchEmpresas(
-            @Parameter(name = "editEmpresaRequest", description = "Request json para editar empresa") @RequestBody EditEmpresaRequest request;
-
-    }
+            @Parameter(name = "editEmpresaRequest", description = "Request json para editar empresa") @RequestBody EditEmpresaRequest request,
+            @Parameter(name = "id", description = "Id da empresa a ser editada") @PathVariable(name = "id", required = true) Long id
     ){
-        return empresaService.patchEmpresa();
+        return empresaService.patchEmpresa(request, id);
     }
 
     void deleteEmpresas(){}

@@ -1,5 +1,6 @@
 package com.Java_project.Service.Impl;
 
+import com.Java_project.DTO.EditEmpresaRequest;
 import com.Java_project.Model.Empresa;
 import com.Java_project.Repository.EmpresaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,8 +29,9 @@ public class EmpresaService implements IEmpresaService {
     }
 
     @Override
-    public void patchEmpresa() {
-
+    public Empresa patchEmpresa(EditEmpresaRequest request, Long id) {
+        Empresa empresaUpdated = empresaRepository.editEmpresa(request, id);
+        return empresaUpdated;
     }
 
     @Override
