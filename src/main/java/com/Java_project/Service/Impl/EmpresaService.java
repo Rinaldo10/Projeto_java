@@ -35,13 +35,20 @@ public class EmpresaService implements IEmpresaService {
     }
 
     @Override
-    public void deleteEmpresa() {
+    public String deleteEmpresa(Long id) {
+        try{
+            empresaRepository.deleteById(id);
+            return ("Empresa deleta com sucesso - 200 OK");
 
+        } catch (Exception exception){
+            return ("Não foi possivel deletar a empresa, verifique se o id esta correto.");
+        }
 
     }
 
     @Override
     public void postEmpresa() {
+
 
     }
 

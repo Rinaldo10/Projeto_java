@@ -11,7 +11,7 @@ public interface IEmpresaService {
     Empresa getEmpresaById(Long id);
 
     Empresa patchEmpresa(EditEmpresaRequest request, Long id);
-    void deleteEmpresa();
+    String deleteEmpresa(Long id);
     void postEmpresa();
 
 

@@ -46,5 +46,11 @@ public class EmpresaController {
         return empresaService.patchEmpresa(request, id);
     }
 
-    void deleteEmpresas(){}
+    @DeleteMapping("/{id}")
+    String deleteEmpresas(
+            @Parameter(name = "id", description = "Id da empresa a ser editada") @PathVariable(name = "id", required = true) Long id
+
+    ){
+        return empresaService.deleteEmpresa(id);
+    }
 }
