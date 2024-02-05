@@ -11,6 +11,6 @@ import org.springframework.stereotype.Repository;
 public interface EmpresaRepository extends JpaRepository<Empresa, Long> {
 
     @Query
-    Empresa updateEmpresa(EditEmpresaRequest request, Long id);
+    Empresa editEmpresa(EditEmpresaRequest request, Long id);
 
 }
